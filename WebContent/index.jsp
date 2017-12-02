@@ -11,7 +11,5 @@
 <a href="findAll_table">查看所有桌位信息</a>
 
 
-<a href="to_add_table">添加桌位</a><br/>
-<a href="findAll_table">查看所有桌位信息</a>
 </body>
 </html>
