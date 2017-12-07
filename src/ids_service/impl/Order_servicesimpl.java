@@ -14,5 +14,17 @@ public class Order_servicesimpl implements Order_services{
 			return 1;
 		return 0;
 	}
+	@Override
+	public Order findMaxid_order() {
+		if(od.findMaxid_order()!=null)
+			return od.findMaxid_order();
+		return null;
+	}
+	@Override
+	public Order find_order(String user_vc) {
+		if(od.find_order(user_vc)!=null)
+			return od.find_order(user_vc);
+		return null;
+	}
 
 }

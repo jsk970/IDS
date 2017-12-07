@@ -1,6 +1,6 @@
 eclipse.preferences.version=1
 encoding//src/ids_bean/Table.java=UTF-8
-encoding//src/ids_dao/Order_dao.java=UTF-8
+encoding//src/ids_dao/Order_dao.java=GBK
 encoding//src/ids_dao/Table_dao.java=UTF-8
 encoding//src/ids_service/Order_services.java=GBK
 encoding//src/ids_service/Table_services.java=UTF-8

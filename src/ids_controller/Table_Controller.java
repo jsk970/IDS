@@ -49,7 +49,7 @@ public class Table_Controller{
 		
 	//	System.out.println("---------add_table  action！----------");
 		String serverPath = request.getServletContext().getRealPath("/image/table_images/");
-	//	System.out.println("----serverPath:"+serverPath);
+		System.out.println("----serverPath:"+serverPath);
 //		File server = new File(serverPath);
 //		if(!server.exists())
 //			server.mkdirs();	
@@ -57,7 +57,7 @@ public class Table_Controller{
 		String ext_name = temp.substring(temp.length()-3); 
 		String path = serverPath+table_name+"."+ext_name ;
 		
-	//	System.out.println("upload--path:"+path);
+		System.out.println("upload--path:"+path);
 //		if (!table_image_path.exists()) {// 判断目录是否存在
 //			table_image_path.mkdirs();//创建文件夹
 //			System.out.println("---------Create directory success!-------");
